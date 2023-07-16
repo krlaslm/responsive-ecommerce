@@ -68,7 +68,7 @@ button.white {
 
 .logo {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: rgb(44, 162, 150);
 }
@@ -583,14 +583,6 @@ footer .copyright {
   width: 100%;
   text-align: center;
 }
-
-/* Shop Page */
-
-/* Single Product */
-
-/* Blog Page */
-
-/* Cart Page */
 
 @media (max-width: 799px) {
   .section-p1 {
