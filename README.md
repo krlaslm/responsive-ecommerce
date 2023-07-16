@@ -8,8 +8,8 @@ This project is to practice my HTML, CSS and Javascript (just to show the menu b
 
 <p>
 <img src='./screenshot/normal1.png' height='500'>
-<img src='./screenshot/normal2.png' height='500'>
 <img src='./screenshot/normal3.png' height='500'>
+<img src='./screenshot/normal2.png' height='500'>
 </p>
 
 In this project, I've set global styling for certain elements and use certain styles such as the hover effect, active, position, background-image, display flex and it's flex properties, and the responsive media screen for 2 different screen sizes (799px and 477px).
@@ -42,4 +42,8 @@ In this media screen, I've adjusted a few stylings and also added a menu bar ins
 <img src='./screenshot/iphoneX-5.png' height='500'>
 </p>
 
-This is just for the smaller screen such as phones.
+This is just for the smaller screen such as phones. It also has the menu bar.
+
+---
+
+Upon "completing" this front page project, I've learn the basic of HTML, CSS and a little bit of JavaScript.
