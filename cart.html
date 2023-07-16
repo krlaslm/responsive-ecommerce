@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#" class="logo">Runners Realm</a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" id="lg-bag" class="active"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header">
+      <h2>#gearlikeus</h2>
+      <p>Save more with coupons & up to 50% off!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>REMOVE</td>
+            <td>IMAGE</td>
+            <td>PRODUCT</td>
+            <td>PRICE</td>
+            <td>QUANTITY</td>
+            <td>SUBTOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="/images/adizero.jpeg" alt="" /></td>
+            <td>Adidas Adizero Adios Pro 3.0</td>
+            <td>$198</td>
+            <td><input type="number" value="1" /></td>
+            <td>$198</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="/images/nike-vaporfly.jpeg" alt="" /></td>
+            <td>Nike Vaporfly Next% 3</td>
+            <td>$319</td>
+            <td><input type="number" value="1" /></td>
+            <td>$319</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="/images/asics-metaspeed.jpeg" alt="" /></td>
+            <td>Asics Metaspeed Sky+</td>
+            <td>$349</td>
+            <td><input type="number" value="1" /></td>
+            <td>$349</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Discount Code</h3>
+        <div>
+          <input type="text" placeholder="Enter your discount code" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+        <div id="subtotal">
+          <h3>Cart Totals</h3>
+          <table>
+            <tr>
+              <td>
+                Cart Subtotal
+              </td>
+              <td>$</td>
+              <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+              </tr>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$</strong></td>
+              </tr>
+            </tr>
+          </table>
+          <div id="checkout">
+            <button class="normal">Checkout</button>
+          </div>
+          
+        </div>
+      
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <a href="#" class="logo">Runners Realm</a>
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.
+        </p>
+        <p><strong>Phone: </strong>+65 12345678</p>
+        <p><strong>Hours: </strong>09:00 - 17:00, Mon - Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <p>
+            <i class="fa-brands fa-apple" style="color: #000000"></i>Download on
+            the <span>App Store</span>
+          </p>
+          <p>
+            <i class="fa-brands fa-google-play" style="color: #00c9ff"></i
+            >Google Play
+          </p>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <div class="payment">
+          <i class="fa-brands fa-cc-visa" style="color: #1434cb"></i>
+          <i class="fa-brands fa-cc-mastercard" style="color: #eb001b"></i>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&#169; Khairul Aslam</p>
+      </div>
+    </footer>
+
+    <!-- link javascript -->
+    <script src="/script.js"></script>
+  </body>
+</html>

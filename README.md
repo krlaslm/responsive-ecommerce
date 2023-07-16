@@ -1,6 +1,6 @@
 # Responsive E-commerce Website
 
-This project is to practice my HTML, CSS and Javascript (just to show the menu bar) skills on just the Main Page.
+This project is to practice my HTML, CSS and Javascript (just to show the menu bar) skills on just the Main Page, Shop Page, Single Product Page and also the Cart Page.
 
 ---
 
@@ -46,4 +46,16 @@ This is just for the smaller screen such as phones. It also has the menu bar.
 
 ---
 
-Upon "completing" this front page project, I've learn the basic of HTML, CSS and a little bit of JavaScript.
+### Shop Page, Single Product Page and Cart Page
+
+<p>
+<img src='./screenshot/shop-page.png' height='500'>
+<img src='./screenshot/single-product-page.png' height='500'>
+<img src='./screenshot/cart-page.png' height='500'>
+</p>
+
+These are the pages that I've created as well. As mentioned that this project is based on FrontEnd design only. So as for the Single Product Page, I've only made one product that is clickable. And in the cart page, the cart table is slidable. And yes, it is also set to small screen media queries.
+
+---
+
+Upon "completing" this E-commerce Project, I've learn the basic of HTML, CSS and JavaScript's onclick function.
